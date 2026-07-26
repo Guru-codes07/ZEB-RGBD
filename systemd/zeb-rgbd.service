@@ -1,0 +1,12 @@
+[Unit]
+Description=Zebronics RGB Daemon
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/zeb-rgbd
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
