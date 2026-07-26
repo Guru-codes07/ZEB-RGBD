@@ -46,7 +46,7 @@ ZEB-RGBD/
 ## Build
 
 ```bash
-git clone https://github.com/<your-username>/ZEB-RGBD.git
+git clone https://github.com/Guru-codes07/ZEB-RGBD.git
 cd ZEB-RGBD
 make
 ```
